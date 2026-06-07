@@ -261,7 +261,7 @@ export default function App() {
 
         {/* SECTION 4: Interactive Handshake Simulator */}
         <section>
-          <OAuthSimulator config={config} userEmail="venelouistyago@gmail.com" />
+          <OAuthSimulator config={config} userEmail="x@gmail.com" />
         </section>
 
         {/* SECTION 5: Documentation Guides */}
