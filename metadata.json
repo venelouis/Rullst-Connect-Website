@@ -1,0 +1,6 @@
+{
+  "name": "Rullst Connect",
+  "description": "An elegant, async-first, and Developer Experience (DX) focused OAuth2 authentication library for Rust.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
