@@ -74,7 +74,7 @@ export default function App() {
             <div className="font-display font-bold text-slate-100 tracking-tight flex items-center gap-1.5 text-base">
               Rullst Connect
               <span className="text-[10px] bg-rust-500/15 text-rust-500 font-mono tracking-wider font-semibold border border-rust-500/20 rounded px-1.5 py-0.5">
-                v0.1.0
+                v7.0.1
               </span>
             </div>
             <div className="text-[9px] font-mono text-slate-500 tracking-wider">Agnostic OAuth2 Client for Rust</div>

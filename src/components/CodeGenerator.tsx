@@ -57,11 +57,11 @@ export default function CodeGenerator({ config, onChangeConfig }: CodeGeneratorP
   const generateCargoToml = () => {
     return `[package]
 name = "rullst_auth_app"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
 
 [dependencies]
-rullst-connect = { version = "0.1.0", features = [${getFeaturesString()}] }
+rullst-connect = { version = "7.0.1", features = [${getFeaturesString()}] }
 tokio = { version = "1.35", features = ["full"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
@@ -551,7 +551,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
               <Flame className="w-3.5 h-3.5 text-rust-500" />
               Active Feature: {getProviderStructName()} client initialized
             </span>
-            <span>UTF-8 • Rust Native • v0.1.0</span>
+            <span>UTF-8 • Rust Native • v7.0.1</span>
           </div>
         </div>
 

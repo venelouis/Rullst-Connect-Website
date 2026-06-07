@@ -235,7 +235,7 @@ if token.is_expired() {
                   <div className="flex-1">
                     <h5 className="font-semibold text-slate-200">Activate Hosting under Repository Settings</h5>
                     <p className="text-[11px] text-slate-400 leading-normal mt-1">
-                      Head over to the <code className="font-semibold text-slate-200">Settings</code> tab of your GitHub repository, select <code className="font-semibold text-slate-200">Pages</code> in the navigation pane, spot the <code className="font-semibold text-slate-200">Build and deployment</code> section, and change the source selection from <em>Deploy from branch</em> to <strong>GitHub Actions</strong>.
+                      Head over to the <code className="font-semibold text-slate-200">Settings</code> tab of your GitHub repository, select <code className="font-semibold text-slate-200">Pages</code> in the left sidebar, locate the <code className="font-semibold text-slate-200">Build and deployment</code> section, ensure the source dropdown has <code className="font-semibold text-slate-200">Deploy from a branch</code> selected, and set the branch target dropdown menu to <code className="text-rust-500 font-mono font-semibold">gh-pages</code> (with <code className="font-mono">/ (root)</code> folder).
                     </p>
                     <p className="text-[11px] text-emerald-400 font-semibold mt-2 flex items-center gap-1.5">
                       <Globe className="w-3.5 h-3.5" />

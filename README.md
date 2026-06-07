@@ -29,7 +29,7 @@ A lightweight, async-first, and highly developer experience (DX) focused library
 
 ```toml
 [dependencies]
-rullst-connect = { version = "0.1.0", features = ["google", "github", "axum"] }
+rullst-connect = { version = "7.0.1", features = ["google", "github", "axum"] }
 tokio = { version = "1.0", features = ["full"] }
 ```
 
