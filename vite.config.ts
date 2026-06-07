@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/rullst-connect/',
+    base: '/Rullst-Connect-Website/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

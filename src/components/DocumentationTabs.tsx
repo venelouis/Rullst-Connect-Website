@@ -60,7 +60,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/rullst-connect/', // IMPORTANT: Replace with your actual GitHub repository name!
+  base: '/Rullst-Connect-Website/', // IMPORTANT: Replace with your actual GitHub repository name!
 });`;
 
   return (
@@ -239,7 +239,7 @@ if token.is_expired() {
                     </p>
                     <p className="text-[11px] text-emerald-400 font-semibold mt-2 flex items-center gap-1.5">
                       <Globe className="w-3.5 h-3.5" />
-                      That's it! Your landing page will be instantly available at: https://venelouis.github.io/rullst-connect/ 🚀
+                      That's it! Your landing page will be instantly available at: https://venelouis.github.io/Rullst-Connect-Website/ 🚀
                     </p>
                   </div>
                 </div>
